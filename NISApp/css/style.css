@@ -1,0 +1,189 @@
+/* ------------------MY CODE--------------------------------------------*/
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*background-color: #f3f3f3;*/
+}
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+header .header-brand {
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight:900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+body .header-logo {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 0px 20px;
+
+}
+header nav ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+
+}
+header nav ul li a {
+  font-family: Catamaran;
+  font-size: 16px;
+  color: #111;
+}
+header .header-cases {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  body .header-logo {
+    margin: 14px 0;
+    text-align: left;
+    padding: 20px 20px 0px 40px;
+    border-right: 2px solid #111;
+    /*border-bottom: 1px solid #111;*/
+    line-height: 30px;
+    float: left;
+  }
+  header nav ul li a {
+    line-height: 60px;
+  }
+}
+
+/*INDEX*/
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  /*border-bottom: 2px solid #111;*/
+}
+.index-banner {
+  width: 100%;
+  height: calc(100vh - 300px);
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("../images/bg-boston.jpg");
+  /*opacity: 0.4;
+  filter: alpha(opacity=40);
+  background-color: #000;*/
+  /*background-image: url("bg-boston.jpg");*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+  display: table;
+}
+.intro {
+  display: table-cell;
+  vertical-align: middle;
+}
+.index-banner h1 {
+  font-family: Catamaran;
+  font-size: 60px;
+  line-height: 70px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 2px 2px 8px #111;
+}
+.index-banner h2 {
+  font-family: Catamaran;
+  font-size: 28px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 100;
+  text-shadow: 2px 2px 8px #111;
+  font-style: italic;
+  line-height: 40px;
+  display: block;
+  width: 750px;
+  margin: 0 auto;
+}
+.index-products div {
+  margin: 20px 10px 20px 0px;
+  /*width: calc(100% - 32px);*/
+  height: 150px;
+  background-color: #f2f2f2;
+  float: left;
+
+  /*
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: center;
+  */
+}
+
+.index-products div h3 {
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 150px;
+  color: #111;
+  text-align: center;
+
+}
+
+.box-square {
+  width: calc(25% - 20px) !important;
+}
+
+.box-rectangle {
+  width: calc(30% - 20px) !important;
+
+}
+/*FOOOTER*/
+/*footer {
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+ footer ul li {
+   display: block;
+   list-style: none;
+
+ }
+
+ footer ul li a {
+   font-family: Catamaran;
+   font-size: 24px;
+   color: #fff;
+   line-height: 50px;
+ }
+
+.footer-links-products {
+    display: none;
+}
+.footer-sm {
+  width: 50px;
+  float: right;
+}
+.footer-sm img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+*/
